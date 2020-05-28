@@ -1,6 +1,9 @@
-Thanks for downloading this template!
+My personal website!
 
-Template Name: MyResume
+
+=== About the template ===
+
+Template Inspiration: MyResume
 Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
 Author: BootstrapMade.com
 License: https://bootstrapmade.com/license/

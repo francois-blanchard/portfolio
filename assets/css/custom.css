@@ -1,0 +1,14 @@
+/*--------------------------------------------------------------
+# Custom button
+--------------------------------------------------------------*/
+
+.btn-outline-action {
+  color: #aeb820;
+  border-color: #aeb820;
+}
+
+.btn-outline-action:hover {
+  color: #fff;
+  background: #aeb820;
+  transition: background 0.2s ease;
+}

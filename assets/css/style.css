@@ -49,11 +49,9 @@ h5, h6 {
   display: none;
   width: 40px;
   height: 40px;
-  border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: #aeb820;
-  color: #fff;
+  color: #aeb820;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
 }
@@ -66,8 +64,7 @@ h5, h6 {
 }
 
 .back-to-top:hover {
-  color: #fff;
-  background: #0678e3;
+  color: #0678e3;
   transition: background 0.2s ease-in-out;
 }
 
@@ -284,7 +281,7 @@ h5, h6 {
 }
 
 #hero h1 {
-  margin: 0;
+  margin: 0 0 10px 0;
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
@@ -308,7 +305,7 @@ h5, h6 {
 }
 
 #hero .social-links a {
-  font-size: 24px;
+  font-size: 40px;
   display: inline-block;
   color: #aeb820;
   line-height: 1;
@@ -667,16 +664,12 @@ section {
   z-index: 4;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a {
+.portfolio .portfolio-wrap a .portfolio-links {
   color: #45505b;
   margin: 0 2px;
   font-size: 28px;
   display: inline-block;
   transition: 0.3s;
-}
-
-.portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #148af9;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -1074,22 +1067,19 @@ section {
 }
 
 #footer .social-links a {
-  font-size: 18px;
+  font-size: 30px;
   display: inline-block;
-  background: #aeb820;
-  color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
+  color: #aeb820;
   border-radius: 50%;
+  padding: 9px 11px;
+  line-height: 1;
+  margin-right: 4px;
   text-align: center;
-  width: 36px;
-  height: 36px;
   transition: 0.3s;
 }
 
 #footer .social-links a:hover {
-  background: #0678e3;
+  background: #aeb820;
   color: #fff;
   text-decoration: none;
 }

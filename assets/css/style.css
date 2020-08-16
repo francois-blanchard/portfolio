@@ -34,7 +34,6 @@ h5, h6 {
   font-family: "Roboto", sans-serif;
   font-size: 40px;
   font-weight: bold;
-  text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 1px;
   position: relative;
@@ -259,8 +258,6 @@ h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("https://d1ksdepalg6p5y.cloudfront.net/attractif_design/img/hero-bg-low.jpg") top right no-repeat;
-  background-size: cover;
   position: relative;
 }
 
@@ -272,12 +269,15 @@ h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.8);
+  background: url("https://d1ksdepalg6p5y.cloudfront.net/attractif_design/img/hero-bg-low.jpg") top right no-repeat;
+  background-size: cover;
   position: absolute;
   bottom: 0;
   top: 0;
   left: 0;
   right: 0;
+  filter: blur(3px);
+  opacity: 0.3;
 }
 
 #hero h1 {
@@ -285,7 +285,7 @@ h5, h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #76716f;
+  color: #45505b;
 }
 
 #hero p {

@@ -1,5 +1,5 @@
 /*--------------------------------------------------------------
-# Custom button
+# Custom
 --------------------------------------------------------------*/
 
 .btn-outline-action {
@@ -11,4 +11,24 @@
   color: #fff;
   background: #aeb820;
   transition: background 0.2s ease;
+}
+
+.btn-outline-sec-action {
+  color: #45505b;
+  border-color: #45505b;
+}
+
+.btn-outline-sec-action:hover {
+  color: #fff;
+  background: #45505b;
+  transition: background 0.2s ease;
+}
+
+.call-to-actions-group {
+  display: flex;
+  justify-content: center;
+}
+
+.call-to-actions-group a, .call-to-actions-group button {
+  margin-right: 20px;
 }

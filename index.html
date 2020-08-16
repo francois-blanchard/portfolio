@@ -31,6 +31,17 @@
 
 <body>
 
+  <div class="modal fade" id="showcaseVideo" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button> -->
+        <iframe height="500" src="https://www.youtube.com/embed/QOTbnrwwD8s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
   <!-- ======= Mobile nav toggle button ======= -->
   <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
   <header id="header" class="d-flex flex-column justify-content-center">
@@ -53,9 +64,9 @@
       <p>Je suis <span class="typed" data-typed-items="Infographiste, Freelance, Modelisateur 3D"></span></p>
       <div class="social-links">
         <a href="https://instagram.com/benoitblanchard82" class="instagram" target="_blank"><i class="fab fa-instagram-square"></i></a>
+        <a href="https://www.youtube.com/watch?v=QOTbnrwwD8s" class="youtube" target="_blank"><i class="fab fa-youtube-square"></i></a>
         <!-- <a href="#" class="linkedin" target="_blank"><i class="fab fa-linkedin"></i></a> -->
       </div>
-    </div>
   </section>
 
   <main id="main">
@@ -95,15 +106,22 @@
             <p>
               Pour toute demande de devis, merci de me faire parvenir les plans et autres documents par e-mail en détaillant autant que possible votre projet. Je vous répondrai sous 48h avec un devis ou vous contacterai pour plus de précisions.
             </p>
-            <p>
-              <a class="btn btn-outline-action btn-lg" href="https://forms.gle/KLFSHdzpBwTYSEw19" target="_blank">
-                <i class="far fa-envelope-open-text"></i>
-                <span>Me contacter</span>
-              </a>
-            </p>
           </div>
         </div>
 
+      </div>
+    </section>
+
+    <section id="call-to-actions">
+      <div class="call-to-actions-group">
+        <button type="button" class="btn btn-outline-sec-action btn-lg" data-toggle="modal" data-target="#showcaseVideo">
+          <i class="fad fa-play"></i>
+          <span>Vidéo de présentation</span>
+        </button>
+        <a class="btn btn-outline-action btn-lg" href="https://forms.gle/KLFSHdzpBwTYSEw19" target="_blank">
+          <i class="far fa-envelope-open-text"></i>
+          <span>Me contacter</span>
+        </a>
       </div>
     </section>
 
@@ -291,9 +309,10 @@
   <footer id="footer">
     <div class="container">
       <h3>Attractif Design</h3>
-      <p>"une image vaut mille mots"</p>
+      <p>"une image vaut mieux que mille mots"</p>
       <div class="social-links">
         <a href="https://instagram.com/benoitblanchard82" class="instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/watch?v=QOTbnrwwD8s" class="youtube" target="_blank"><i class="fab fa-youtube"></i></a>
         <!-- <a href="#" class="linkedin" target="_blank"><i class="fab fa-linkedin"></i></a> -->
       </div>
       <div class="copyright">

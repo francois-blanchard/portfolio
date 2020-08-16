@@ -167,4 +167,9 @@
     items: 1
   });
 
+  // Youtube video modal
+  $("#showcaseVideo").on('hidden.bs.modal', function (e) {
+    $("#showcaseVideo iframe").attr("src", $("#showcaseVideo iframe").attr("src"));
+  });
+
 })(jQuery);
